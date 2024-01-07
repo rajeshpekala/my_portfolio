@@ -13,10 +13,11 @@ const Home = () => {
       items-center justify-center h-full px-4 md:flex-row'>
         <div className="flex flex-col justify-center h-full">
             <h2 className='text-4xl sm:7xl font-bold text-white'>I'm a FullStack Developer</h2>
-            <p className='text-gray-500 py-4 '>Lorem ipsum dolor sit amet, consectetur 
-                adipisicing elit. Vel recusandae nam m
-                delectus dicta pariatur culpa a saepe es
-                quisquam similique incidunt, s quasi itaque.
+            <p className='text-gray-500 py-4 '>
+            Welcome to my portfolio! Here, I want to share my experiences, 
+            talents, and creative projects with you. Take a look to get a sense of my unique skills and perspective. 
+            Let's explore together the exciting world of innovation and craftsmanship.
+
             </p>
             <div>
         <Link to ="portfolio" smooth duration = {500} className='group text-white w-fit px-6 py-3 

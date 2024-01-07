@@ -1,5 +1,5 @@
 import React from 'react';
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg';
+import Foodapp from '../assets/portfolio/Foodapp.png';
 import installNode from '../assets/portfolio/installNode.jpg';
 import navbar from '../assets/portfolio/navbar.jpg';
 import reactParallax from '../assets/portfolio/reactParallax.jpg';
@@ -10,7 +10,9 @@ const Portfolio = () => {
     const portfolios = [
         {
             id:1,
-            src:arrayDestruct
+            src:Foodapp,
+            href: "https://prem-app.vercel.app/",
+            code:"https://github.com/rajeshpekala/Foodish_app"
         },
         {
             id:2,
@@ -46,15 +48,15 @@ const Portfolio = () => {
 
              <div  className ="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
             {
-                portfolios.map(({id,src})=>(
+                portfolios.map(({id,src,href,code})=>(
 
                     
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
 
                      <img src={src} alt= "" className='rounded-md hover:scale-105 duration-200 '/>
                    <div className='flex items-center justify-center '>
-                 <button className='w-1/2 px6 py-3 m-4 hover:scale-105 duration-300 '>Demo</button>
-                 <button className='w-1/2 px6 py-3 m-4 hover:scale-105 duration-300 '>Code</button>
+                 <a href={href} target='blank'><button className='w-1/2 px6 py-3 m-4 hover:scale-105 duration-300 '>Demo</button></a>
+                 <a href={code} target='blank'><button className='w-1/2 px6 py-3 m-4 hover:scale-105 duration-300 '>Code</button></a>
               </div>
 
             </div>
