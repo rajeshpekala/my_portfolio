@@ -89,7 +89,9 @@ const Experience = () => {
 
             {
                 technologies.map((tech) =>(
-                <div key ={tech.id} className={'shadow-md hover:scale-105 duration-500 py-2 rounded-lg' + " "+ tech.style}>
+                    <div key={tech.id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${tech.style}`}>
+
+
                     <img src={tech.src} alt='' className='w-20 mx-auto'/>
                     <p className='mt-4'>{tech.title}</p>
                 </div>

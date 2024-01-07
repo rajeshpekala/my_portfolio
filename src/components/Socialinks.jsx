@@ -51,9 +51,10 @@ const links = [
 
          {links.map(({id,child,href,style,download}) => (
        
-       <li key={id}
-       className = {"flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px]  bg-gray-500" + " " + style}
-           >
+       <li
+       key={id}
+               className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] bg-gray-500 ${style}`}
+         >
           <a href={href} className='flex justify-between items-center w-full text-white'
            download = {download}
           target ='_blank'
