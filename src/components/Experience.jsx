@@ -9,6 +9,7 @@ import expressJs from "../assets/expressJs.png";
 import nodeJs from "../assets/nodeJs.png";
 import redux from "../assets/redux.png";
 import mongoDB from "../assets/mongoDB.png";
+import java from "../assets/java.png";
 
 const Experience = () => {
     const technologies = [
@@ -70,6 +71,12 @@ const Experience = () => {
             id:10,
             src: github,
             title:"GITHUB",
+            style:"shadow-gray-400",
+        },
+        {
+            id:11,
+            src: java,
+            title:"JAVA",
             style:"shadow-gray-400",
         },
     ]
