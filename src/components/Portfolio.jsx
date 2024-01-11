@@ -1,10 +1,10 @@
 import React from 'react';
 import Foodapp from '../assets/portfolio/Foodapp.png';
-import installNode from '../assets/portfolio/installNode.jpg';
-import navbar from '../assets/portfolio/navbar.jpg';
-import reactParallax from '../assets/portfolio/reactParallax.jpg';
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
-import reactWeather from '../assets/portfolio/reactWeather.jpg';
+// import installNode from '../assets/portfolio/installNode.jpg';
+// import navbar from '../assets/portfolio/navbar.jpg';
+// import reactParallax from '../assets/portfolio/reactParallax.jpg';
+// import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
+// import reactWeather from '../assets/portfolio/reactWeather.jpg';
 
 const Portfolio = () => {
     const portfolios = [
@@ -14,26 +14,26 @@ const Portfolio = () => {
             href: "https://prem-app.vercel.app/",
             code:"https://github.com/rajeshpekala/Foodish_app"
         },
-        {
-            id:2,
-            src:reactParallax
-        },
-        {
-            id:3,
-            src:reactSmooth
-        },
-        {
-            id:4,
-            src:installNode
-        },
-        {
-            id:5,
-            src:navbar
-        },
-        {
-            id:6,
-            src:reactWeather
-        },
+        // {
+        //     id:2,
+        //     src:reactParallax
+        // },
+        // {
+        //     id:3,
+        //     src:reactSmooth
+        // },
+        // {
+        //     id:4,
+        //     src:installNode
+        // },
+        // {
+        //     id:5,
+        //     src:navbar
+        // },
+        // {
+        //     id:6,
+        //     src:reactWeather
+        // },
     ]
   return (
     <div name ="portfolio" 
