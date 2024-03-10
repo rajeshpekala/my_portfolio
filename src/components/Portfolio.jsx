@@ -1,5 +1,6 @@
 import React from 'react';
 import Foodapp from '../assets/portfolio/Foodapp.png';
+import chat from '../assets/portfolio/chat.png'
 // import installNode from '../assets/portfolio/installNode.jpg';
 // import navbar from '../assets/portfolio/navbar.jpg';
 // import reactParallax from '../assets/portfolio/reactParallax.jpg';
@@ -8,33 +9,39 @@ import Foodapp from '../assets/portfolio/Foodapp.png';
 
 const Portfolio = () => {
     const portfolios = [
-        {
-            id:1,
-            src:Foodapp,
-            href: "https://prem-app.vercel.app/",
-            code:"https://github.com/rajeshpekala/Foodish_app"
-        },
-        // {
-        //     id:2,
-        //     src:reactParallax
-        // },
-        // {
-        //     id:3,
-        //     src:reactSmooth
-        // },
-        // {
-        //     id:4,
-        //     src:installNode
-        // },
-        // {
-        //     id:5,
-        //     src:navbar
-        // },
-        // {
-        //     id:6,
-        //     src:reactWeather
-        // },
-    ]
+      {
+        id: 1,
+        src: Foodapp,
+        href: "https://prem-app.vercel.app/",
+        code: "https://github.com/rajeshpekala/Foodish_app",
+      },
+      {
+        id: 2,
+        src: chat,
+        href: "https://github.com/rajeshpekala/chat-app",
+        code: "https://github.com/rajeshpekala/chat-app",
+      },
+      // {
+      //     id:2,
+      //     src:reactParallax
+      // },
+      // {
+      //     id:3,
+      //     src:reactSmooth
+      // },
+      // {
+      //     id:4,
+      //     src:installNode
+      // },
+      // {
+      //     id:5,
+      //     src:navbar
+      // },
+      // {
+      //     id:6,
+      //     src:reactWeather
+      // },
+    ];
   return (
     <div name ="portfolio" 
     className='bg-gradient-to-b from-black to-gray-800 w-full
