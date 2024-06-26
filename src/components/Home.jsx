@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroImage from '../assets/heroImage.jpg'
+import HeroImage from '../assets/myimage.png'
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { Link } from 'react-scroll';
 
@@ -42,7 +42,7 @@ const Home = () => {
         </div>
         <div>
           <img
-            src="https://render.fineartamerica.com/images/rendered/default/print/6.5/8/break/images/artworkimages/medium/3/code-while-dead-coder-programmer-coding-pc-gift-thomas-larch.jpg"
+            src={HeroImage}
             alt="MyImage"
             className="rounded-2xl mx-auto w-2/5 sm:w-1/4 md:w-3/6 lg:w-3/6 xl:w-full"
           />
