@@ -18,8 +18,8 @@ const Portfolio = () => {
       {
         id: 2,
         src: chat,
-        href: "https://github.com/rajeshpekala/chat-app",
-        code: "https://github.com/rajeshpekala/chat-app",
+        href: "https://github.com/rajeshpekala/chat-application",
+        code: "https://chat-application-toop.onrender.com",
       },
       // {
       //     id:2,
