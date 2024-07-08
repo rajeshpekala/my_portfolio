@@ -9,7 +9,7 @@ const About = () => {
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
             </div>
-            <p className='text-xl mt-20'>A Full Stack Web Developer with a passion for crafting seamless 
+            <p className='text-xl mt-20'>A Budding Software Enginner with a passion for crafting seamless 
             digital experiences. My journey in the world of coding began with a curiosity that evolved into  love for 
             creating dynamic and user-friendly websites. 
             Proficient in both front-end and back-end technologies,I have a wide range of skills to offer.
