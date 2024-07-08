@@ -18,8 +18,8 @@ const Portfolio = () => {
       {
         id: 2,
         src: chat,
-        href: "https://github.com/rajeshpekala/chat-application",
-        code: "https://chat-application-toop.onrender.com",
+        href: "https://chat-application-toop.onrender.com",
+        code: "https://github.com/rajeshpekala/chat-application",
       },
       // {
       //     id:2,
@@ -45,7 +45,7 @@ const Portfolio = () => {
   return (
     <div name ="portfolio" 
     className='bg-gradient-to-b from-black to-gray-800 w-full
-      text-white md:h-screen' >
+      text-white ' >
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center
          w-full h-full'>
             <div className='pb-8'>
@@ -62,8 +62,8 @@ const Portfolio = () => {
 
                      <img src={src} alt= "" className='rounded-md hover:scale-105 duration-200 '/>
                    <div className='flex items-center justify-center '>
-                 <a href={href} target='blank'><button className='w-1/2 px6 py-3 m-4 hover:scale-105 duration-300 '>Demo</button></a>
-                 <a href={code} target='blank'><button className='w-1/2 px6 py-3 m-4 hover:scale-105 duration-300 '>Code</button></a>
+                 <a href={href} target='blank'><button className='w-1/2 px6 py-3 m-4 hover:scale-150 duration-300 '>Demo</button></a>
+                 <a href={code} target='blank'><button className='w-1/2 px6 py-3 m-4 hover:scale-150 duration-300 '>Code</button></a>
               </div>
 
             </div>
